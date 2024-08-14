@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav {
+
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 3);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(12, 1, 18);
+    position: fixed;
+
+}
+a:hover{
+    color: rgba(193, 24, 24, 0.936);
+}
+
+.left {
+    margin-left: 35px;
+}
+
+.right ul {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+    font-weight: bold;
+    font-size: 3.3vh;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.ok {
+    margin-right: 20px;
+
+}
+
+.ok2 {
+    margin-right: 20px;
+}
+
+.ok3 {
+    margin-right: 20px;
+}
+
+.ok4 {
+    margin-right: 20px;
+}
+
+
+.navv ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ******************************************BLOCK ********************************************* */
+
+.container1 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#hero {
+    background-image: url(photo-1515253564590-b7ec416b06be.avif);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 590px;
+    background-size: cover;
+
+}
+
+.container1 h1 {
+    margin-left: 560px;
+    margin-bottom: 200px;
+    color: rgb(255, 255, 255);
+}
+
+.container1 .name{
+    color: brown;
+}
+
+/* *******************************************BLOCK 1 CERT************************************************** */
+
+#hero2 h1 {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-left: 10px;
+    font-family: serif;
+    
+
+}
+.cer{
+    color: rgb(0, 0, 128);
+}
+
+#hero2 p {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.box {
+    width: 30%;
+    height: 180px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+.box h1 {
+    color: white;
+    margin-left: 180px;
+}
+
+.block1 {
+    display: flex;
+}
+
+.box1 {
+    margin-left: 80px;
+    background-image: url(istockphoto-1053210080-612x612.jpg);
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url(istockphoto-1053210080-612x612.jpg);
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url(istockphoto-1053210080-612x612.jpg);
+    background-size: cover;
+    margin-right: 80px;
+}
+
+/* ======================================================= */
+
+.block2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.box4 {
+    margin-left: 80px;
+    background-image: url(istockphoto-1053210080-612x612.jpg);
+    background-size: cover;
+}
+
+.box5 {
+    background-image: url(istockphoto-1053210080-612x612.jpg);
+    background-size: cover;
+}
+
+.box6 {
+    background-image: url(istockphoto-1053210080-612x612.jpg);
+    background-size: cover;
+    margin-right: 80px;
+}
+
+/* ************************************BLOCK 2 PROJ**************************************** */
+
+
+#hero3 h1 {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    color: rgb(26, 2, 2);
+
+}
+
+#hero3 p {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10PX;
+}
+
+
+.box h1 {
+   
+    margin-left: 160px;
+}
+
+.newblock1 {
+    display: flex;
+}
+
+.newbox1 {
+    margin-left: 80px;
+    background-image: url(istockphoto-1294385362-612x612.jpg);
+    background-size: cover;
+}
+
+.newbox2 {
+    background-image: url(istockphoto-1294385362-612x612.jpg);
+    background-size: cover;
+}
+
+.newbox3 {
+    background-image: url(istockphoto-1294385362-612x612.jpg);
+    background-size: cover;
+    margin-right: 80px;
+}
+
+/* ======================================================= */
+
+.newblock2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.newbox4 {
+    margin-left: 80px;
+    background-image: url(istockphoto-1294385362-612x612.jpg);
+    background-size: cover;
+}
+
+.newbox5 {
+    background-image: url(istockphoto-1294385362-612x612.jpg);
+    background-size: cover;
+}
+
+.newbox6 {
+    background-image: url(istockphoto-1294385362-612x612.jpg);
+    background-size: cover;
+    margin-right: 80px;
+}
+
+/* ****************************************BLOACK 4 ABOUT******************************************* */
+
+
+#hero4 h1 {
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-right: 238px;
+
+}
+
+#hero4 p {
+
+    margin-top: 7px;
+}
+
+#hero4 {
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+
+#hero4 .imgcont {
+    background-image: url(WhatsApp\ Image\ 2024-07-23\ at\ 18.56.20_e3579463.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 20px;
+    width: 15%;
+    height: 220px;
+    border: 1px solid black;
+}
+
+.button{
+    border: 2px solid rgb(91, 17, 17);
+    border-radius: 5%;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: brown;
+    margin-top: 8px;
+    font-size: 12px;
+    padding: 5px;
+
+}
+
+/* ==================================BLOCK 5 CONT============================================================ */
+
+#hero5 h1{
+
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    
+}
+.ci{
+    color: rgb(0, 0, 128);
+    font-size: 25px;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.b{
+    width: 20%;
+    height: 200px;
+    border: 1px solid rgb(251, 204, 204);
+    border-radius: 5%;
+    background-size: cover;
+    margin-top: 35px;
+    
+    
+}
+.b1 {
+    margin-right: 15px;
+    background-image: url(ook.avif);
+    
+}
+.b2{
+    margin-right: 15px;
+    background-image: url(ok.jpg);
+}
+.b3{
+    
+    background-image: url(oook.webp);
+}
+
+.b h2{
+    color: white;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.b h3{
+
+    color: rgb(240, 243, 255);
+    font-weight: 700;
+    margin-left: 54px;
+    margin-top: 55px;
+   
+}
+
+
+/* ************************************************ BLOCK LAST************************************* */
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 3);
+    margin-top: 50px;
+}
+.foot h2{
+    color: white;
+    margin-left: 526px;
+    margin-top: 160px;
+    padding-top: 45px;
+}
+.foot h3{
+    color: white;
+    margin-left: 560px;
+    margin-top: 5px;
+    
+}
+
+.foot i{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 12px;
+    border-radius: 50%;
+       
+}
+.next{
+    display: flex;
+    justify-content: center;
+    
+}
+
